@@ -8,4 +8,10 @@ This script automates the download process by using the PDB IDs listed in your C
 # Prepare the pdbqt files for RNA and the corresponding small molecule (in progress)
 1. extract the first model from ensembles (NMR with more than one structure)
 2. Remove water, ions, WO2,ACA and PHA
-3. 
+3. Extract the ligand (pymol)
+4. Extract the RNA only
+5. Extract the binding pocket (residues within 10 Angstrom from the ligand)
+6. Get the binding box coordinates
+7. write the gpf file for AutoDock
+8. Prepare the pdbqt file for ligand (obabel)
+9. prepare the pdbqt file for the receptor (obabel)
