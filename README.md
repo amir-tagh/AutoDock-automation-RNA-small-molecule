@@ -15,3 +15,14 @@ This script automates the download process by using the PDB IDs listed in your C
 7. write the gpf file for AutoDock
 8. Prepare the pdbqt file for ligand (obabel)
 9. prepare the pdbqt file for the receptor (obabel)
+# Multiprocessing.Pool to parallelize tasks across multiple CPU cores
+Explanation:
+cpu_count():
+
+Automatically detects the number of available CPUs on your machine.
+Pool(processes=num_cpus):
+
+Creates a pool of worker processes equal to the number of available CPUs.
+pool.starmap():
+
+Distributes the download_mmcif function across the pool of worker processes, allowing multiple PDB IDs to be downloaded concurrently.
