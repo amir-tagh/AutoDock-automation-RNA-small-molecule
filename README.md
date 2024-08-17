@@ -6,3 +6,6 @@
 3. Run the script. It will read the PDB IDs from the CSV file and download the corresponding mmCIF files into the specified output directory.
 This script automates the download process by using the PDB IDs listed in your CSV file.
 # Prepare the pdbqt files for RNA and the corresponding small molecule (in progress)
+1. extract the first model from ensembles (NMR with more than one structure)
+2. Remove water, ions, WO2,ACA and PHA
+3. 
