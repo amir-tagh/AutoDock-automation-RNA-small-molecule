@@ -2,14 +2,15 @@
 
 here=$(pwd)
 
-for i in {1..7}
+for i in {1..1}
+
  do
   echo "i is $i"	  
    #mkdir -p Interactions_pose${i}
     #cd Interactions_pose${i}
      #cp $here/CBR-pose_state0${i}.pdb .
       #cp $here/*.py .
-       cd Docking-G1-active${i}
+       cd Docking-shery-comp${i}
         now=$(pwd)
 	 echo "we are at $now"
 	  sleep 2
