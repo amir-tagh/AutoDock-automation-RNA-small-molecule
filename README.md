@@ -29,21 +29,13 @@ Distributes the download_mmcif function across the pool of worker processes, all
 
 # Generate conformers from SMILES and geometry optimization
 
-python Generate-conformers-geom-opt.py -h
-
-usage: Generate-conformers-geom-opt-V2.py [-h] [--num_conformers NUM_CONFORMERS] input_csv output_dir
-
-Add hydrogens, generate conformers, and perform geometry optimization on SMILES from a CSV file.
-
-positional arguments:
-
-  input_csv             Input CSV file with SMILES and names
-  
-  output_dir            Output directory to save conformers
-
-optional arguments:
-
-  -h, --help            show this help message and exit
-  
+python Generate-conformers-geom-opt.py -h\
+usage: Generate-conformers-geom-opt-V2.py [-h] [--num_conformers NUM_CONFORMERS] input_csv output_dir\
+Add hydrogens, generate conformers, and perform geometry optimization on SMILES from a CSV file.\
+positional arguments:\
+  input_csv             Input CSV file with SMILES and names\
+  output_dir            Output directory to save conformers\
+optional arguments:\
+  -h, --help            show this help message and exit\
   --num_conformers NUM_CONFORMERS (Number of conformers to generate (default: 1))
 
