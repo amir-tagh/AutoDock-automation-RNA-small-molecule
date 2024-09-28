@@ -45,7 +45,5 @@ optional arguments:
 
   -h, --help            show this help message and exit
   
-  --num_conformers NUM_CONFORMERS
-  
-                        Number of conformers to generate (default: 1)
+  --num_conformers NUM_CONFORMERS (Number of conformers to generate (default: 1))
 
